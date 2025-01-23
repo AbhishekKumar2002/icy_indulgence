@@ -10,7 +10,7 @@ import NextLink from 'next/link'
 import React from "react";
 
 
-export default function page() {
+export default function Page() {
   const data = useSelector((state: RootState) => state.cart);
   const dispatch = useDispatch();
   const { isLoading, value, items } = data;

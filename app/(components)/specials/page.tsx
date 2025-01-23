@@ -8,7 +8,7 @@ import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 
-export default async function Specials() {
+export default function Specials() {
   const router = useRouter();
   const { data: session } = useSession();
   useEffect(() => {

@@ -20,7 +20,7 @@ const validateEmail = (email: string) => {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 };
 
-export default function page() {
+export default function Page() {
   const otpModel = useDisclosure();
   const cpassword = useDisclosure()
   const { data, status } = useSession();
