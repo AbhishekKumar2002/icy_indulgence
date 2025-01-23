@@ -95,7 +95,7 @@ export default function CartButton() {
               ) : (
                 <div className="flex justify-center items-center h-96">
                   <h1 className="font-bold">
-                    It's empty <span className="text-4xl">🛒</span>
+                    It is empty <span className="text-4xl">🛒</span>
                   </h1>
                 </div>
               )}

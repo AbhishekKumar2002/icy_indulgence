@@ -206,7 +206,7 @@ export default function Header() {
               </DropdownSection>
               {status === "loading" ? (
                 <DropdownSection title="loading">
-                  <DropdownItem isReadOnly>loading...</DropdownItem>
+                  <DropdownItem key="loading" isReadOnly>loading...</DropdownItem>
                 </DropdownSection>
               ) : status === "unauthenticated" ? (
                 <DropdownSection title="Guest">

@@ -21,7 +21,7 @@ export default function Privacy() {
 
       <h2 className="text-xl font-semibold mt-4 mb-2">Use of Personal Information</h2>
       <p>
-        We use the information we collect to improve and optimize our site's performance and to provide you with a personalized and enjoyable experience. Any personal information provided during the purchasing process is used to fulfill your orders, communicate with you, and update you on the latest Icy Indulgence news and promotions.
+        We use the information we collect to improve and optimize our site performance and to provide you with a personalized and enjoyable experience. Any personal information provided during the purchasing process is used to fulfill your orders, communicate with you, and update you on the latest Icy Indulgence news and promotions.
       </p>
 
       <h2 className="text-xl font-semibold mt-4 mb-2">Security</h2>

@@ -7,6 +7,8 @@ import { useDispatch } from "react-redux";
 import { decrement, increment } from "@/app/redux/slice/AddtocartSlice";
 import { Image } from "@nextui-org/react";
 import NextLink from 'next/link'
+import React from "react";
+
 
 export default function page() {
   const data = useSelector((state: RootState) => state.cart);
@@ -54,7 +56,7 @@ export default function page() {
       ) : (
         <div className="flex justify-center items-center h-screen">
           <h1 className="font-bold">
-            It's empty <span className="text-4xl">🛒</span>
+            It is empty <span className="text-4xl">🛒</span>
           </h1>
         </div>
       )}

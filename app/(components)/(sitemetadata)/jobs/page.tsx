@@ -11,7 +11,7 @@ export default function Jobs() {
       <h1 className="text-3xl font-bold mb-4">Join Our Team</h1>
 
       <p>
-        At Icy Indulgence, we are always on the lookout for passionate and talented individuals to join our team. If you have a love for ice cream, creativity, and a dedication to exceptional customer service, we'd love to hear from you!
+        At Icy Indulgence, we are always on the lookout for passionate and talented individuals to join our team. If you have a love for ice cream, creativity, and a dedication to exceptional customer service, we would love to hear from you!
       </p>
 
       <h2 className="text-xl font-semibold mt-4 mb-2">Current Openings</h2>
@@ -38,7 +38,7 @@ export default function Jobs() {
       </ol>
 
       <p>
-        Our team will carefully review your application, and if your qualifications align with our needs, we'll be in touch for further steps in the hiring process.
+        Our team will carefully review your application, and if your qualifications align with our needs, we will be in touch for further steps in the hiring process.
       </p>
 
       <h2 className="text-xl font-semibold mt-4 mb-2">Benefits of Joining Icy Indulgence</h2>

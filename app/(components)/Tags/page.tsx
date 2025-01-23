@@ -10,7 +10,7 @@ export default function Tags() {
           <span className="inline-block bg-gray-400 p-2 text-5xl -rotate-3 font-bold hover:rotate-0 transition ease-in-out origin-right">
           Icy Indulgence
           </span>
-        <span className="block">World's Finest</span>
+        <span className="block">World Finest</span>
       </h1>
         <Image
           as={NextImage}
