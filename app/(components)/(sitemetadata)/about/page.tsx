@@ -31,7 +31,7 @@ export default function About() {
 
       <h2 className="text-xl font-semibold mt-4 mb-2">Join Us on the Journey</h2>
       <p>
-        Whether you're a longtime fan or discovering Icy Indulgence for the first time, we invite you to join us on this flavorful journey. Explore our menu, savor the richness of our ice creams, and become a part of the Icy Indulgence family.
+        Whether you are a longtime fan or discovering Icy Indulgence for the first time, we invite you to join us on this flavorful journey. Explore our menu, savor the richness of our ice creams, and become a part of the Icy Indulgence family.
       </p>
 
       <p>
