@@ -1,0 +1,73 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  // provider = "mysql"
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Flavors {
+  id        Int         @id @default(autoincrement())
+  type      String
+  title     String
+  img       String
+  alt       String
+  price     Float
+  iceCreams IceCreams[]
+}
+
+model IceCreams {
+  id       Int               @id @default(autoincrement())
+  img      String
+  subtype  String // Classical Vanilla
+  price    Float
+  quantity Int
+  flavor   Flavors           @relation(fields: [flavorId], references: [id], onDelete: Cascade)
+  flavorId Int
+  details  IceCreamDetails[]
+}
+
+model IceCreamDetails {
+  id          Int       @id @default(autoincrement())
+  flavor      String
+  texture     String
+  verstaility String
+  desc        String
+  iceCream    IceCreams @relation(fields: [iceCreamId], references: [id], onDelete: Cascade)
+  iceCreamId  Int
+}
+
+model SearchQuery {
+  id    Int    @id @default(autoincrement())
+  query String
+  path  String
+}
+
+model Item {
+  id        Int        @id @default(autoincrement())
+  itemId    Int
+  favorites Favorite[]
+}
+
+model Favorite {
+  id     Int  @id @default(autoincrement())
+  itemId Int
+  userId Int
+  user   User @relation(fields: [userId], references: [id])
+  item   Item @relation(fields: [itemId], references: [id])
+}
+
+model User {
+  id        Int        @id @default(autoincrement())
+  username  String     @unique
+  email     String     @unique
+  password  String
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+  favorites Favorite[]
+}
