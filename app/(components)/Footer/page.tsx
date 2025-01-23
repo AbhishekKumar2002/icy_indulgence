@@ -50,7 +50,7 @@ export default function Footer() {
           <h1 className="text-2xl gap-2 font-semibold">Social Links</h1>
           <ul className="flex flex-col sm:flex-col gap-2">
             <Link
-              href="https://www.facebook.com/charandeep.kumar.12"
+              href=""
               key="1"
               isExternal
               className="text-xl text-[#00f]"
@@ -58,7 +58,7 @@ export default function Footer() {
               <AiFillFacebook /> &nbsp; Facebook
             </Link>
             <Link
-              href="https://www.instagram.com/_kitish"
+              href=""
               key="2"
               isExternal
               className="text-xl text-[#d62976]"
@@ -66,7 +66,7 @@ export default function Footer() {
               <AiFillInstagram /> &nbsp; Instagram
             </Link>
             <Link
-              href="https://twitter.com/_kitish"
+              href=""
               key="1"
               isExternal
               className="text-xl text-[#14171a] dark:text-white"
@@ -75,7 +75,7 @@ export default function Footer() {
             </Link>
 
             <Link
-              href="https://www.linkedin.com/in/charandeep/"
+              href=""
               key="1"
               isExternal
               className="text-xl text-[#0077b5]"
@@ -84,7 +84,7 @@ export default function Footer() {
             </Link>
 
             <Link
-              href="https://www.github.com/charandeep7"
+              href=""
               key="1"
               isExternal
               className="text-xl text-[#000] dark:text-white"
@@ -104,7 +104,7 @@ export default function Footer() {
       <p className="text-center w-10/12 m-auto -mb-5 text-black dark:text-white">
         Designed and Developed by{" "}
         <a
-          href="https://portfolio-revisit.vercel.app/"
+          href=""
           target="_blank"
           className="text-red-500 hover:underline"
         >
